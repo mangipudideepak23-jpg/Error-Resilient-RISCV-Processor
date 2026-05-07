@@ -1,0 +1,58 @@
+[dumpfile] "tb_no_error.vcd"
+[timestart] 0
+[size] 1920 900
+[pos] 0 0
+*-19.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_no_error.
+[treeopen] tb_no_error.uut.
+[signals_width] 280
+[sst_expanded] 1
+[sst_vpaned_height] 200
+@28
+tb_no_error.clk
+@28
+tb_no_error.rst
+@28
+tb_no_error.valid_in
+@28
+tb_no_error.valid_out
+@28
+tb_no_error.fatal
+@200
+-
+@200
+-[INPUT] Clean codeword  (no bits flipped)
+@28
+tb_no_error.data_in[44:0]
+@28
+tb_no_error.clean_cw[44:0]
+@200
+-
+@200
+-[STAGE 1] Syndrome  (S1 == 0 => no error)
+@28
+tb_no_error.uut.S1[5:0]
+@28
+tb_no_error.uut.S3[5:0]
+@200
+-
+@200
+-[STAGE 2] Error-Locator Poly  (s2 == 0 => no error)
+@28
+tb_no_error.uut.s1[5:0]
+@28
+tb_no_error.uut.s2[5:0]
+@200
+-
+@200
+-[STAGE 3] Chien Search + Output  (mask == 0 => no correction applied)
+@28
+tb_no_error.uut.mask[44:0]
+@28
+tb_no_error.data_out[31:0]
+@28
+tb_no_error.error_mask[44:0]
+@28
+tb_no_error.sigma2[5:0]
+[pattern_trace] 1
+[pattern_trace] 0

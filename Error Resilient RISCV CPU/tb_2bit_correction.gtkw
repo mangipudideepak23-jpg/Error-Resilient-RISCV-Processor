@@ -1,0 +1,60 @@
+[dumpfile] "tb_2bit_correction.vcd"
+[timestart] 0
+[size] 1920 900
+[pos] 0 0
+*-19.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_2bit_correction.
+[treeopen] tb_2bit_correction.uut.
+[signals_width] 280
+[sst_expanded] 1
+[sst_vpaned_height] 200
+@28
+tb_2bit_correction.clk
+@28
+tb_2bit_correction.rst
+@28
+tb_2bit_correction.valid_in
+@28
+tb_2bit_correction.valid_out
+@28
+tb_2bit_correction.fatal
+@200
+-
+@200
+-[INPUT] Corrupted codeword  (bits 0 AND 22 flipped)
+@28
+tb_2bit_correction.data_in[44:0]
+@28
+tb_2bit_correction.clean_cw[44:0]
+@28
+tb_2bit_correction.corrupt_cw[44:0]
+@200
+-
+@200
+-[STAGE 1] Syndrome  (S1 != 0 => error detected)
+@28
+tb_2bit_correction.uut.S1[5:0]
+@28
+tb_2bit_correction.uut.S3[5:0]
+@200
+-
+@200
+-[STAGE 2] Error-Locator Poly  (s2 != 0 => TWO-bit error)
+@28
+tb_2bit_correction.uut.s1[5:0]
+@28
+tb_2bit_correction.uut.s2[5:0]
+@200
+-
+@200
+-[STAGE 3] Chien Search + Output  (mask has 2 bits set)
+@28
+tb_2bit_correction.uut.mask[44:0]
+@28
+tb_2bit_correction.data_out[31:0]
+@28
+tb_2bit_correction.error_mask[44:0]
+@28
+tb_2bit_correction.sigma2[5:0]
+[pattern_trace] 1
+[pattern_trace] 0

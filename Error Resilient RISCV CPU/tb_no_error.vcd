@@ -1,0 +1,249 @@
+$date
+	Thu May 07 21:23:21 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_no_error $end
+$var wire 1 ! valid_out $end
+$var wire 6 " sigma2 [5:0] $end
+$var wire 1 # fatal $end
+$var wire 45 $ error_mask [44:0] $end
+$var wire 32 % data_out [31:0] $end
+$var wire 45 & clean_cw [44:0] $end
+$var parameter 32 ' INSTR $end
+$var reg 1 ( clk $end
+$var reg 45 ) data_in [44:0] $end
+$var reg 1 * rst $end
+$var reg 1 + valid_in $end
+$scope module enc_i $end
+$var wire 32 , data_in [31:0] $end
+$var reg 45 - codeword [44:0] $end
+$var reg 44 . divreg [43:0] $end
+$var reg 12 / parity [11:0] $end
+$var integer 32 0 i [31:0] $end
+$upscope $end
+$scope module uut $end
+$var wire 1 ( clk $end
+$var wire 45 1 corrected_cw [44:0] $end
+$var wire 45 2 data_in [44:0] $end
+$var wire 1 * rst $end
+$var wire 1 + valid_in $end
+$var reg 6 3 S1 [5:0] $end
+$var reg 6 4 S3 [5:0] $end
+$var reg 7 5 chien_e1 [6:0] $end
+$var reg 7 6 chien_e2 [6:0] $end
+$var reg 45 7 d1 [44:0] $end
+$var reg 45 8 d2 [44:0] $end
+$var reg 32 9 data_out [31:0] $end
+$var reg 45 : error_mask [44:0] $end
+$var reg 7 ; exp_s1 [6:0] $end
+$var reg 7 < exp_s3 [6:0] $end
+$var reg 1 # fatal $end
+$var reg 45 = mask [44:0] $end
+$var reg 6 > next_S1 [5:0] $end
+$var reg 6 ? next_S3 [5:0] $end
+$var reg 6 @ s1 [5:0] $end
+$var reg 6 A s2 [5:0] $end
+$var reg 6 B sigma2 [5:0] $end
+$var reg 1 C v1 $end
+$var reg 1 D v2 $end
+$var reg 1 ! valid_out $end
+$var integer 32 E i [31:0] $end
+$var integer 32 F k [31:0] $end
+$scope function alpha_b $end
+$var reg 7 G e [6:0] $end
+$upscope $end
+$scope function gf_inv $end
+$var reg 6 H a [5:0] $end
+$upscope $end
+$scope function gf_mul $end
+$var reg 6 I a [5:0] $end
+$var reg 6 J b [5:0] $end
+$var reg 11 K p [10:0] $end
+$upscope $end
+$scope function mod63_mul2 $end
+$var reg 8 L t [7:0] $end
+$var reg 7 M x [6:0] $end
+$upscope $end
+$scope function mod63_mul3 $end
+$var reg 6 N i6 [5:0] $end
+$var reg 8 O t [7:0] $end
+$upscope $end
+$scope function mod63_neg $end
+$var reg 6 P k6 [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000001000000000110011 '
+$end
+#0
+$dumpvars
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+b101101 E
+xD
+xC
+bx B
+bx A
+bx @
+b0 ?
+b0 >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+b0 2
+bx 1
+b1011 0
+b111101111 /
+b111101111 .
+b1000001000000000110011000111101111 -
+b1000001000000000110011 ,
+0+
+1*
+b0 )
+0(
+b1000001000000000110011000111101111 &
+bx %
+bx $
+x#
+bx "
+x!
+$end
+#5000
+b0 1
+b0 K
+b0 I
+b11011 J
+b100110 G
+b100110 6
+b100110 L
+b10011 M
+b10011 5
+b101100 P
+b101101 F
+b0 =
+0C
+b0 7
+b0 4
+b0 3
+0D
+b0 8
+b0 A
+b0 @
+b0 "
+b0 B
+b0 $
+b0 :
+0#
+b0 %
+b0 9
+0!
+1(
+#10000
+0(
+#15000
+1(
+#20000
+0(
+#25000
+1(
+#30000
+0(
+#35000
+1(
+#36000
+0*
+#40000
+0(
+#45000
+1(
+#46000
+b0 ?
+b0 >
+b100100 G
+b100100 <
+b1100011 O
+b100001 N
+b100001 ;
+b101101 E
+b1000001000000000110011000111101111 )
+b1000001000000000110011000111101111 2
+1+
+#50000
+0(
+#55000
+1C
+b1000001000000000110011000111101111 7
+1(
+#56000
+b101101 E
+b0 )
+b0 2
+0+
+#60000
+0(
+#65000
+b1000001000000000110011000111101111 1
+0C
+b0 7
+1D
+b1000001000000000110011000111101111 8
+1(
+#70000
+0(
+#75000
+b0 1
+b1000001000000000110011 %
+b1000001000000000110011 9
+1!
+0D
+b0 8
+1(
+#80000
+0(
+#85000
+b0 %
+b0 9
+0!
+1(
+#90000
+0(
+#95000
+1(
+#100000
+0(
+#105000
+1(
+#110000
+0(
+#115000
+1(
+#120000
+0(
+#125000
+1(
+#126000
